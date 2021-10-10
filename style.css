@@ -1,0 +1,91 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Lato';
+  src: url(/fonts/Lato/Lato-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url(/fonts/Lato/Lato-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url(/fonts/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
+  font-weight: bolder;
+  font-style: normal;
+}
+
+/* GENERAL */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1920px;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Georgia', 'Avenir', sans-serif;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 1370px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* PAGE */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+.logo__text {
+  font-family: 'Avenir';
+  color: #01996d;
+  font-size: 2.7rem;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+.nav__item {
+  list-style-type: none;
+  margin: 0 36px;
+}
+.nav__link {
+  text-decoration: none;
+  color: #292929;
+}
+.button {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.button_trial {
+  background-color: #01996d;
+  color: #fff;
+  padding: 13px 50px;
+  border-radius: 4px;
+  margin-left: 35px;
+}
+
+/* WELCOME-SECTION */
+
+.welcome-section {
+  background-image: url(/images/BG.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 90vh;
+}
