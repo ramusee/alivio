@@ -2,19 +2,19 @@
 
 @font-face {
   font-family: 'Lato';
-  src: url(../fonts/Lato/Lato-Regular.ttf);
+  src: url(fonts/Lato/Lato-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Lato';
-  src: url(../fonts/Lato/Lato-Bold.ttf);
+  src: url(fonts/Lato/Lato-Bold.ttf);
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Avenir';
-  src: url(../fonts/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
+  src: url(fonts/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
   font-weight: bolder;
   font-style: normal;
 }
@@ -112,7 +112,7 @@ body {
 /* WELCOME-SECTION */
 
 .welcome-section {
-  background-image: url(../images/BG.png);
+  background-image: url(images/BG.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
