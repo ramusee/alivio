@@ -89,9 +89,15 @@ body {
   cursor: pointer;
 }
 .button:hover {
-  color: #000;
+  background-color: #05805d;
 }
-.button_trial {
+.button:active {
+  color: #292929;
+}
+.button_white:hover {
+  background-color: #fff;
+}
+.button_green {
   background-color: #01996d;
   color: #fff;
   padding: 13px 50px;
@@ -131,49 +137,53 @@ body {
 }
 .intro__text {
   font-weight: normal;
+  margin-bottom: 100px;
 }
-.intro__link {
+.button-link {
   display: block;
   text-decoration: none;
   color: #fff;
   padding: 20px 50px;
   background-color: #01996d;
-  margin-top: 100px;
   border-radius: 4px;
   width: fit-content;
-  transition: 0.3s ease-out;
+  transition: 0.2s ease-out;
 }
-.intro__link:hover {
+.button-link:hover {
   color: #fff;
   background-color: #05805d;
 }
-.intro__link:active {
+.button-link:active {
   background-color: #046348;
   color: #05805d;
 }
 
 /* How it works */
+
 .how-it-works {
   margin-top: 170px;
+  margin-bottom: 50px;
 }
 .title {
   font-size: 2.5rem;
+  font-weight: 500;
 }
-.description {
+.how-it-works__description {
   display: grid;
   grid-template-columns: 50% 50%;
   column-gap: 136px;
-  
 }
-.description__header {
+.how-it-works__header {
   font-family: 'Georgia';
   font-size: 5rem;
+  font-weight: bold;
   color: #01996d;
   width: 580px;
   padding: 0;
   margin: 0;
+  line-height: 7.8rem;
 }
-.description__text {
+.how-it-works__text {
   font-size: 2rem;
   width: 650px;
   padding: 0;
@@ -196,15 +206,15 @@ body {
   margin-top: 250px;
 }
 .back-number {
-  font-family: "Georgia";
+  font-family: 'Georgia';
   font-size: 15rem;
   color: rgba(1, 153, 109, 0.2);
 }
 .steps__title {
   display: inline-block;
   position: absolute;
-  transform: translate(80px, 110px) ;
-  font-family: "Georgia";
+  transform: translate(80px, 110px);
+  font-family: 'Georgia';
   font-weight: bold;
   font-size: 3rem;
 }
@@ -218,4 +228,70 @@ body {
   right: 0;
   transform: translateY(-22px);
   background-image: rgba(0, 0, 0, 0.8);
+}
+
+/* Client story */
+
+.client-story {
+  background-color: #245852;
+}
+.client-story-wrapper {
+    max-width: 1500px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+.client-story__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 229px 0 177px;
+  
+}
+.client-story__intro {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.client-story__header {
+  font-family: 'Georgia';
+  font-size: 5rem;
+  line-height: 7.8rem;
+}
+.client-story__text {
+  font-size: 2.5rem;
+  margin: 33px 0 57px;
+}
+
+.video {
+  width: 860px;
+  height: 516px;
+  border-radius: 16px;
+  box-shadow: 6px 6px 10px rgb(39, 39, 39);
+}
+
+/* Our product */
+
+.product {
+  font-size: 2rem;
+  margin-top: 120px;
+}
+.product__container {
+  display: flex;
+}
+.product__description {
+  margin-left: 87px;
+}
+.product__header {
+  font-family: "Georgia";
+  color: #01996d;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 7.8rem;
+  margin: 0;
+}
+.product__text {
+  margin: 20px 0 40px;
 }
