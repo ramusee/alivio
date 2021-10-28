@@ -37,7 +37,12 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
 }
-
+p {
+  line-height: 3.1rem;
+}
+dd {
+  line-height: 3.1rem;
+}
 /* PAGE */
 
 .header {
@@ -262,6 +267,7 @@ body {
 }
 .client-story__text {
   font-size: 2.5rem;
+  font-weight: normal;
   margin: 33px 0 57px;
 }
 
@@ -280,6 +286,42 @@ body {
 }
 .product__container {
   display: flex;
+  position: relative;
+}
+.product__account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.45rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 6px 15px #b4b4b4;
+  width: 297px;
+  height: 294px;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateX(-60px);
+  padding-top: 22px;
+}
+.account__title {
+  font-weight: bold;
+  border-bottom: solid 2.5px #a7a7a7 ;
+}
+.account__desc {
+  font-family: "Georgia";
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+.account__list {
+  padding: 0;
+  margin: 0;
+}
+.account__list-item {
+  margin-top: 1.6rem;
+  padding: 0;
 }
 .product__description {
   margin-left: 87px;
